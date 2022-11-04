@@ -1,0 +1,11 @@
+.card {
+  border: 5px solid var(--color6);
+  border-radius: 42px;
+  margin: 5vw;
+  background-color: var(--color4);
+}
+
+.bookmark {
+  width: 12vw;
+  background-color: red;
+}

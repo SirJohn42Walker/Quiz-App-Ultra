@@ -1,0 +1,10 @@
+.header {
+  background-color: var(--color3);
+  color: var(--color1);
+  padding-top: 1vw;
+  height: 16vw;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  z-index: 1;
+}
