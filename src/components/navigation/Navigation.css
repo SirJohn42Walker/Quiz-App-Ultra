@@ -2,15 +2,11 @@ footer {
   position: fixed;
   bottom: 0;
   width: 100vw;
-  height: 16vw;
+  height: 18vw;
   background-color: var(--color3);
   color: var(--color1);
   z-index: 1;
 }
-
-/* .navbar {
-  display: flex;
-} */
 
 .navbar__list {
   padding-top: 2vw;
@@ -21,15 +17,23 @@ footer {
   justify-content: space-evenly;
 }
 
-.icon {
-  height: 12vw;
-  background-color: var(--color1);
-  padding: 4px;
+.navbar__list--element {
+  height: 14vw;
+  width: 14vw;
+  display: flex;
   border-radius: 100%;
+  justify-content: space-evenly;
+  background-color: var(--color1);
 }
 
-.icon:hover {
+.icon {
+  height: 12vw;
+  margin-top: 1vw;
+  padding: 1.5vw;
+}
+
+/* .icon:hover {
   border-radius: 25%;
   transition: all 0.4s ease-in;
   background-color: var(--color2);
-}
+} */

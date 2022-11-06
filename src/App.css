@@ -15,7 +15,9 @@
 }
 
 body {
+  /* font-family: OpenDyslexic3, regular; */
   background-color: var(--color1);
-  margin-top: 18vw;
-  margin-bottom: 18vw;
+  margin-top: 19vw;
+  padding-bottom: 25vw;
+  margin-bottom: 30vw;
 }
